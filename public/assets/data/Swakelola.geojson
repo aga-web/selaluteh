@@ -1,0 +1,27 @@
+{
+"type": "FeatureCollection",
+"name": "Swakelola",
+"features": [
+{ "type": "Feature", "properties": { "Name": "Selalu Teh, Sekolaq" }, "geometry": { "type": "Point", "coordinates": [ 115.7136257, -0.247082, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Selalu Teh, Barong Tongkok" }, "geometry": { "type": "Point", "coordinates": [ 115.6909567, -0.2304327, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Selalu Teh, Anggana 2" }, "geometry": { "type": "Point", "coordinates": [ 117.2789203, -0.5668554, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Selalu Teh, Babulu" }, "geometry": { "type": "Point", "coordinates": [ 116.4566249, -1.50349, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Selalu Teh, Jembayan" }, "geometry": { "type": "Point", "coordinates": [ 117.0159722, -0.5775833, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Selalu Teh, Loa Duri" }, "geometry": { "type": "Point", "coordinates": [ 117.0640678, -0.5903031, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Selalu Teh, Petung" }, "geometry": { "type": "Point", "coordinates": [ 116.6670983, -1.3537115, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Selalu Teh, Kembang Janggut" }, "geometry": { "type": "Point", "coordinates": [ 116.3648288, 0.1450307, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Selalu Teh, Kota Bangun SP 3" }, "geometry": { "type": "Point", "coordinates": [ 116.5377778, -0.4020833, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Selalu Teh, Sanga Sanga" }, "geometry": { "type": "Point", "coordinates": [ 117.2296301, -0.6700948, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Selalu Teh, Loa Kulu" }, "geometry": { "type": "Point", "coordinates": [ 117.0221184, -0.5135004, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Selalu Teh, Jonggon A" }, "geometry": { "type": "Point", "coordinates": [ 116.8445051, -0.4937635, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Selalu Teh, Handil 7" }, "geometry": { "type": "Point", "coordinates": [ 117.2125382, -0.862116, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Selalu Teh, Batuah" }, "geometry": { "type": "Point", "coordinates": [ 117.0897222, -0.71925, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Selalu Teh, Sanggata 4" }, "geometry": { "type": "Point", "coordinates": [ 117.5313408, 0.4825186, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Selalu Teh, Sebulu SP" }, "geometry": { "type": "Point", "coordinates": [ 116.975205, -0.167083, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Selalu Teh, Sebulu Ulu" }, "geometry": { "type": "Point", "coordinates": [ 116.986809, -0.284373, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Selalu Teh, Sanggata 3" }, "geometry": { "type": "Point", "coordinates": [ 117.5335064, 0.4932101, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Selalu Teh, Tanjung Redeb" }, "geometry": { "type": "Point", "coordinates": [ 117.4965464, 2.1498122, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Selalu Teh, Simpang Raya" }, "geometry": { "type": "Point", "coordinates": [ 115.6851888, -0.2542408, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Selalu Teh, Grogot" }, "geometry": { "type": "Point", "coordinates": [ 116.1968289, -1.9149261, 0.0 ] } }
+]
+}

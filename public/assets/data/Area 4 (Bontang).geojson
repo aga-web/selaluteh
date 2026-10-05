@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"name": "Area 4 Bontang",
+"features": [
+{ "type": "Feature", "properties": { "Name": "Selalu Teh, HM Ardans" }, "geometry": { "type": "Point", "coordinates": [ 117.475737, 0.1269834, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Selalu Teh, Rawa Indah" }, "geometry": { "type": "Point", "coordinates": [ 117.4923881, 0.1229381, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Selalu Teh, Lok Tuan" }, "geometry": { "type": "Point", "coordinates": [ 117.4805633, 0.1701089, 0.0 ] } }
+]
+}

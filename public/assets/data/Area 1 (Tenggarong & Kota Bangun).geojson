@@ -1,0 +1,17 @@
+{
+"type": "FeatureCollection",
+"name": "Area 1 Tenggarong and Kota Bangun",
+"features": [
+{ "type": "Feature", "properties": { "Name": "Selalu Teh, Danau Murung" }, "geometry": { "type": "Point", "coordinates": [ 116.982317, -0.4192923, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Selalu Teh, Sukarame" }, "geometry": { "type": "Point", "coordinates": [ 116.989519, -0.4034181, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Selalu Teh, Kadewa" }, "geometry": { "type": "Point", "coordinates": [ 116.9864247, -0.412084, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Selalu Teh, Timbau" }, "geometry": { "type": "Point", "coordinates": [ 116.9972009, -0.436814, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Selalu Teh, Loa Ipuh" }, "geometry": { "type": "Point", "coordinates": [ 116.9741201, -0.4154102, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Selalu Teh, Mangkurawang" }, "geometry": { "type": "Point", "coordinates": [ 116.9895514, -0.3860575, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Selalu Teh, Bukit Biru" }, "geometry": { "type": "Point", "coordinates": [ 116.9890215, -0.457286, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Selalu Teh, Parikesit" }, "geometry": { "type": "Point", "coordinates": [ 117.0132515, -0.4392329, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Selalu Teh, Teluk Dalam" }, "geometry": { "type": "Point", "coordinates": [ 117.0065067, -0.4393425, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Selalu Teh, Kota Bangun" }, "geometry": { "type": "Point", "coordinates": [ 116.5860469, -0.2667375, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Selalu Teh, Kota Bangun 2" }, "geometry": { "type": "Point", "coordinates": [ 116.5844136, -0.263982, 0.0 ] } }
+]
+}

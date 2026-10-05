@@ -1,0 +1,11 @@
+{
+"type": "FeatureCollection",
+"name": "Area 3 Balikpapan",
+"features": [
+{ "type": "Feature", "properties": { "Name": "Selalu Teh, Dr Sutomo" }, "geometry": { "type": "Point", "coordinates": [ 116.8431691, -1.2461133, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Selalu Teh, Martadinata" }, "geometry": { "type": "Point", "coordinates": [ 116.8383087, -1.255885, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Selalu Teh, Indrakila" }, "geometry": { "type": "Point", "coordinates": [ 116.8581564, -1.2359612, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Selalu Teh, Sepinggan Baru" }, "geometry": { "type": "Point", "coordinates": [ 116.9035913, -1.2493761, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Selalu Teh, Pandan Sari" }, "geometry": { "type": "Point", "coordinates": [ 116.8249333, -1.2355876, 0.0 ] } }
+]
+}
