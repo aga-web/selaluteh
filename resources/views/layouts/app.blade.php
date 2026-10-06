@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Selalu Teh - Teh Terenak No.2 di Indonesia</title>
-    <link rel="icon" href="{{ asset('assets/img/logo.png') }}">
+    <link rel="icon" href="{{ asset('img/logo.png') }}">
     
     <!-- Font & Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -31,6 +31,11 @@
                     <li><a href="#portfolio">Portfolio</a></li>
                     <li><a href="#team">Team</a></li>
                     <li><a href="#contact" class="btn-nav">Hubungi Kami</a></li>
+                    <li>
+                        <a href="#lokasi" class="btn-map-nav" aria-label="Lihat lokasi gerai">
+                            <i class="fa-solid fa-map-location-dot"></i>
+                        </a>
+                    </li>
                 </ul>
             </nav>
         </div>

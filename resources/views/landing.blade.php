@@ -6,7 +6,6 @@
     <title>Selalu Teh - Segarnya Kapan Saja</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
-    @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 <body>
 
@@ -192,7 +191,9 @@
                                 <li><i class="fa-solid fa-circle-check"></i> {{ $feat }}</li>
                             @endforeach
                         </ul>
-                        <a href="https://wa.me/{{ env('SELALUTEH_PHONE', '6281234567890') }}?text=Halo%20Selalu%20Teh,%20saya%20tertarik%20dengan%20{{ urlencode($pkg['title']) }}" target="_blank" class="btn btn-primary" style="width: 100%; text-align: center; justify-content: center; margin-top: 25px;">
+                        <a href="https://wa.me/{{ env('SELALUTEH_PHONE', '6281234567890') }}?text=Halo%20Selalu%20Teh,%20saya%20tertarik%20dengan%20{{ urlencode($pkg['title']) }}" target="_blank" 
+                        
+                        class="btn btn-investment" style="width: 100%; text-align: center; justify-content: center; margin-top: 25px;">
                             Hubungi Kami
                         </a>
                     </div>
@@ -222,7 +223,7 @@
                                 <li><i class="fa-solid fa-circle-check"></i> {{ $feat }}</li>
                             @endforeach
                         </ul>
-                        <a href="https://wa.me/{{ env('SELALUTEH_PHONE', '6281234567890') }}?text=Halo%20Selalu%20Teh,%20saya%20tertarik%20dengan%20{{ urlencode($pkg['title']) }}" target="_blank" class="btn btn-primary" style="width: 100%; text-align: center; justify-content: center; margin-top: 25px;">
+                        <a href="https://wa.me/{{ env('SELALUTEH_PHONE', '6281234567890') }}?text=Halo%20Selalu%20Teh,%20saya%20tertarik%20dengan%20{{ urlencode($pkg['title']) }}" target="_blank" class="btn btn-investment" style="width: 100%; text-align: center; justify-content: center; margin-top: 25px;">
                             Hubungi Kami
                         </a>
                     </div>
@@ -344,14 +345,14 @@
 </section>
 
 <!-- Banner Ringkas di Landing Page Utama -->
-<section style="background: #FFF5F0; padding: 60px 0; border: 1px solid #FFEAD8;">
+<section id="lokasi" style="background: #FFF5F0; padding: 60px 0; border: 1px solid #FFEAD8;">
     <div class="container" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 20px;">
         <div>
             <span class="minimal-badge">90+ GERAI TERSEBAR</span>
             <h3 style="font-size: 1.8rem; font-weight: 800; margin-top: 8px;">Cari Lokasi Selalu Teh Terdekat?</h3>
             <p style="color: #64748B;">Temukan daftar lengkap outlet dan sebaran wilayah kemitraan kami di Kalimantan Timur.</p>
         </div>
-        <a href="/lokasi" class="btn btn-primary" style="display: inline-flex; align-items: center; gap: 8px;">
+        <a href="/lokasi" class="btn-map-cta">
             <i class="fa-solid fa-map-location-dot"></i>
             <span>Lihat Peta Lokasi Lengkap</span>
         </a>

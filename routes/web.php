@@ -126,7 +126,7 @@ Route::get('/', function () {
         ['name' => 'Annisa Lutviani', 'role' => 'Manager Area 1', 'image' => 'assets/img/team/annisalutviani.jpg', 'ig' => 'https://www.instagram.com/annisaltvniii/'],
         ['name' => 'Rahmini', 'role' => 'Manager Area 2', 'image' => 'assets/img/team/rahmini.jpg', 'ig' => 'https://www.instagram.com/rahminiii/'],
         ['name' => 'Aga', 'role' => 'Team Member', 'image' => 'assets/img/team/aga.png', 'ig' => 'https://www.instagram.com/'],
-        ['name' => 'Hafiz', 'role' => 'Team Leader', 'image' => 'assets/img/team/hafiz.png', 'ig' => 'https://www.instagram.com/'],
+        ['name' => 'Hafiz', 'role' => 'Team Leader', 'image' => 'assets/img/team/hafiz.png', 'ig' => 'https://www.instagram.com/jefrinichol?utm_source=ig_web_button_share_sheet&stkn=ZDNlZDc0MzIxNw=='],
         ['name' => 'Rizky', 'role' => 'Team Member', 'image' => 'assets/img/team/rizky.png', 'ig' => 'https://www.instagram.com/'],
     ];
 

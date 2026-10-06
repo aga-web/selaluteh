@@ -721,7 +721,7 @@ footer {
 
 /* About Section & Stats Layout */
 .about-section {
-    padding: 90px 0;
+    padding: 20px 0;
     background: #FFFFFF;
     border-bottom: 1px solid #E2E8F0;
 }
@@ -806,7 +806,7 @@ footer {
 .pulse-dot {
     width: 6px;
     height: 6px;
-    background-color: #E63900;
+    background-color: #11ec44;
     border-radius: 50%;
     display: inline-block;
     animation: pulse 1.5s infinite;
@@ -900,7 +900,7 @@ footer {
     display: inline-flex;
     align-items: center;
     gap: 10px;
-    background: #22C55E;
+    background: #f16907;
     color: #FFFFFF;
     padding: 14px 28px;
     border-radius: 50px;
@@ -912,9 +912,9 @@ footer {
 }
 
 .btn-map-cta:hover {
-    background: #16A34A;
+    background: #a34c16;
     transform: translateY(-2px);
-    box-shadow: 0 12px 24px rgba(34, 197, 94, 0.35);
+    box-shadow: 0 12px 24px rgba(255, 0, 0, 0.35);
 }
 
 .btn-map-cta i {
@@ -1271,6 +1271,27 @@ footer {
     box-shadow: 0 6px 16px rgba(255, 85, 0, 0.35);
 }
 
+.btn-map-nav {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background: #FF5500;
+    color: #FFFFFF !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    box-shadow: 0 4px 12px rgba(255, 85, 0, 0.25);
+    transition: all 0.2s ease;
+}
+
+.btn-map-nav:hover {
+    background: #E04B00;
+    color: #FFFFFF !important;
+    transform: translateY(-1px);
+    box-shadow: 0 6px 16px rgba(255, 85, 0, 0.35);
+}
+
 /* Mobile Menu Elements */
 .mobile-menu-btn {
     display: none;
@@ -1325,4 +1346,53 @@ footer {
     .mobile-menu-btn {
         display: block;
     }
+}
+
+/* Tombol Petunjuk Arah pada daftar gerai */
+.btn-direction {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: #FF5500;
+    color: #FFFFFF !important;
+    padding: 7px 12px;
+    border-radius: 999px;
+    font-size: 11px;
+    font-weight: 700;
+    text-decoration: none !important;
+    transition: all 0.2s ease;
+}
+
+.btn-direction:hover {
+    background: #E04B00;
+    color: #FFFFFF !important;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 10px rgba(255, 85, 0, 0.25);
+}
+
+.btn-direction i {
+    font-size: 11px;
+}
+
+/* Tombol Hubungi Kami pada Paket Investasi */
+.btn-investment {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: #FF5500;
+    color: #FFFFFF !important;
+    padding: 12px 20px;
+    border-radius: 50px;
+    font-size: 0.9rem;
+    font-weight: 700;
+    text-decoration: none !important;
+    transition: all 0.2s ease;
+    box-shadow: 0 4px 12px rgba(255, 85, 0, 0.2);
+}
+
+.btn-investment:hover {
+    background: #E04B00;
+    color: #FFFFFF !important;
+    transform: translateY(-2px);
+    box-shadow: 0 7px 16px rgba(255, 85, 0, 0.3);
 }

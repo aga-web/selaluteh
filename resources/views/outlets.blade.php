@@ -20,6 +20,7 @@
 
     <style>
         /* Modern Directory Layout Styles */
+
         .directory-container {
             display: grid;
             grid-template-columns: 380px 1fr;
@@ -49,6 +50,34 @@
             padding: 20px;
             border-bottom: 1px solid #E2E8F0;
             background: #FAFAFA;
+        }
+
+        .directory-header-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .directory-title {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            color: #0F172A;
+            font-weight: 700;
+            font-size: 0.95rem;
+        }
+
+        .directory-title i {
+            color: #FF5500;
+        }
+
+        .directory-status {
+            background: #DCFCE7;
+            color: #15803D;
+            padding: 5px 10px;
+            border-radius: 999px;
+            font-size: 0.75rem;
+            font-weight: 700;
         }
 
         .search-box {
@@ -125,6 +154,29 @@
             font-weight: 800 !important;
             font-family: 'Plus Jakarta Sans', sans-serif !important;
         }
+
+        .outlet-directory-section {
+            padding: 32px 0;
+            background: #F8FAFC;
+        }
+
+        .outlet-directory-heading {
+            margin-bottom: 24px;
+            text-align: center;
+        }
+
+        .outlet-directory-heading h2 {
+            font-size: 2.2rem;
+            font-weight: 800;
+            color: #0F172A;
+            margin-top: 6px;
+            margin-bottom: 6px;
+        }
+
+        .outlet-directory-heading p {
+            color: #64748B;
+            margin: 0;
+        }
     </style>
 </head>
 <body>
@@ -141,10 +193,10 @@
         <nav class="nav-links">
             <a href="/">Home</a>
             <a href="/#about">Tentang</a>
-            <a href="/lokasi" class="nav-active">Lokasi Gerai</a>
             <a href="/#pricing">Pricing</a>
+            <a href="/#portfolio">Portfolio</a>
             <a href="/#team">Team</a>
-            <a href="/#contact" class="btn-nav">Contact</a>
+            <a href="/#contact" class="btn-nav">Hubungi Kami</a>
         </nav>
 
         <!-- Mobile Menu Toggle Button -->
@@ -157,21 +209,21 @@
     <div class="mobile-nav" id="mobileNav">
         <a href="/" onclick="toggleMobileMenu()">Home</a>
         <a href="/#about" onclick="toggleMobileMenu()">Tentang</a>
-        <a href="/lokasi" class="mobile-active" onclick="toggleMobileMenu()">Lokasi Gerai</a>
         <a href="/#pricing" onclick="toggleMobileMenu()">Pricing</a>
+        <a href="/#portfolio" onclick="toggleMobileMenu()">Portfolio</a>
         <a href="/#team" onclick="toggleMobileMenu()">Team</a>
-        <a href="/#contact" class="btn-nav-mobile" onclick="toggleMobileMenu()">Contact Us</a>
+        <a href="/#contact" class="btn-nav-mobile" onclick="toggleMobileMenu()">Hubungi Kami</a>
     </div>
 </header>
 
     <!-- Content Area -->
-    <section class="py-8 bg-slate-50">
+        <section class="outlet-directory-section">
         <div class="container">
             
-            <div class="mb-6 text-center">
+            <div class="outlet-directory-heading">
                 <span class="minimal-badge">SEBARAN GERAI</span>
-                <h2 style="font-size: 2.2rem; font-weight: 800; color: #0F172A; margin-top: 6px;">Direktori Outlet Selalu Teh</h2>
-                <p style="color: #64748B;">Temukan lokasi gerai terdekat dan petunjuk arah langsung</p>
+                <h2>Direktori Outlet Selalu Teh</h2>
+                <p>Temukan lokasi gerai terdekat dan petunjuk arah langsung</p>
             </div>
 
             <!-- Split Directory Container -->
@@ -180,11 +232,17 @@
                 <!-- Sidebar Left: Search & Cards -->
                 <div class="outlet-sidebar">
                     <div class="sidebar-header">
-                        <div class="flex justify-between items-center">
-                            <span class="font-bold text-slate-800"><i class="fa-solid fa-store text-primary mr-2"></i> Daftar Gerai</span>
-                            <span class="bg-emerald-100 text-emerald-700 text-xs font-bold px-2.5 py-1 rounded-full">90+ Aktif</span>
+                        <div class="directory-header-row">
+                            <span class="directory-title">
+                                <i class="fa-solid fa-store"></i>
+                                Daftar Gerai
+                            </span>
+
+                            <span class="directory-status">
+                                90+ Aktif
+                            </span>
                         </div>
-                        <div class="search-box">
+                                                <div class="search-box">
                             <i class="fa-solid fa-magnifying-glass"></i>
                             <input type="text" id="searchInput" placeholder="Cari nama gerai atau jalan..." onkeyup="filterOutlets()">
                         </div>
@@ -920,8 +978,11 @@
                         <span class="text-[10px] font-bold bg-orange-100 text-primary px-2 py-0.5 rounded-full">${item.city}</span>
                     </div>
                     <p class="text-xs text-slate-500 mb-2"><i class="fa-solid fa-location-dot text-primary mr-1"></i> ${item.address}</p>
-                    <a href="https://maps.google.com/?q=${item.lat},${item.lng}" target="_blank" class="inline-block text-[11px] text-primary font-bold hover:underline">
-                        <i class="fa-solid fa-route"></i> Petunjuk Arah
+                    <a href="https://maps.google.com/?q=${item.lat},${item.lng}"
+                        target="_blank"
+                        class="btn-direction">
+                            <i class="fa-solid fa-route"></i>
+                            GO!
                     </a>
                 `;
                 listEl.appendChild(card);
